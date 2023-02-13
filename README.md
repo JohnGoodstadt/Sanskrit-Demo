@@ -4,7 +4,7 @@ Demo example UKIt swift project using various techniques:
 
 - VIP Design Pattern for Audio ViewController.
 - Programmatic AutoLayout as well as StoryBoard Layout.
-- List to audio using AVAudioPlayer.
+- Playing audio using AVAudioPlayer.
 - Reading json in for all data - decode().
 - Use of Extension to inbuilt UIKit objects.
 - TableView Cells for table row design.
