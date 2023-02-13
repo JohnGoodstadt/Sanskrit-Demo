@@ -64,41 +64,6 @@ public func readData() {
 	}
 	
 	
-//	if let url = Bundle.main.path(forResource: "sanskritImages", ofType: "json") {
-//
-//		if !url.isEmpty {
-//			do{
-//				let data = try  Data(contentsOf: URL(fileURLWithPath: url))
-//				let imagesData = try JSONDecoder().decode([ImageDocument].self, from: data)
-//				imageDocs = imagesData
-//
-//			}catch {
-//				print(error)
-//				print("===========================================")
-//				print("====>ERROR READING CACHED IMAGES JSON <====")
-//				print("===========================================")
-//				fatalError("ERROR READING CACHED IMAGES JSON ")
-//			}
-//		}
-//	}
-	
-	
-//	if let url = Bundle.main.path(forResource: "sanskritAudio", ofType: "json") {
-//
-//		if !url.isEmpty {
-//			do{
-//				let data = try  Data(contentsOf: URL(fileURLWithPath: url))
-//				audioDocuments = try JSONDecoder().decode([AudioDocument].self, from: data)
-//			}catch {
-//				print(error)
-//				print("===========================================")
-//				print("====>ERROR READING CACHED AUDIO JSON <====")
-//				print("===========================================")
-//				fatalError("ERROR READING CACHED AUDIO JSON ")
-//			}
-//		}
-//	}
-	
 	joinItemsAndGroups(Current.items,Current.groups)
 	
 	//MARK: - Grab Image and audio Data
