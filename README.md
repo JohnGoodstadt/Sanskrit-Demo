@@ -13,5 +13,7 @@ Demo example UKIt swift project using various techniques:
 - Play list of audio tracks in sequence.
 
 Download this project from GitHub as a  ZIP
+
 Open XCodeProj
+
 Run
